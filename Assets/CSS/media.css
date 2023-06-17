@@ -1,0 +1,24 @@
+/* MOBILE */
+@media(max-width: 992px){
+    .banner{
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../Images/MOB.jpg) no-repeat center;
+    }
+    .company, .card, .getInTouch, footer{
+        flex-flow: column;
+        text-align: center;
+    }
+    .getInTouch>div{
+        margin: 0%;
+    }
+    .getInTouch>div>form{
+        padding: 15px;
+    }
+}
+
+/* TAB */
+@media(min-width: 993px) and (max-width: 1200px){
+    .banner{
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../Images/sunrise.jpg) no-repeat center;
+        background-size: 150%;
+    }
+}
